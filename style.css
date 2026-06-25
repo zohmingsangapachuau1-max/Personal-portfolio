@@ -205,3 +205,70 @@ nav ul li a i{
 nav ul li a:hover i{
     opacity: 1;
 }
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        gap: 15px 5%;
+        text-align: center;
+    }
+
+    nav ul{
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-container{
+        flex-direction: column-reserve;
+        gap: 30px;
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem; /* Phone-ah chuan font lian lutuk a chhia ang */
+    }
+
+    .hero-content p {
+        margin: 0 auto 20px auto;
+    }
+
+    .hero-socials {
+        justify-content: center; /* Icon ho laihawlah a awm thup ang */
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .profile-img {
+        width: 200px; /* Phone-ah thlalak kan tite deuh hlek ang */
+        height: 200px;
+    }
+
+    /* 3. About Section spacing kan tite deuh hlek ang */
+    .about {
+        padding: 50px 5%;
+    }
+
+    /* 4. Project section layout */
+    .projects {
+        padding: 50px 5%;
+    }
+
+    /* 5. Contact Section Link ho pawh hnuai lamah a in-tlar thla tawp ang */
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contact-item {
+        width: 100%; /* Phone-ah chuan button a dung zawngin a puitling zia ang */
+        max-width: 300px;
+        text-align: center;
+    }
+
+}
